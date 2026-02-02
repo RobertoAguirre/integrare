@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  /* Paleta INTEGRARE */
+  --color-integrare-white: #ffffff;
+  --color-integrare-blue: #add8e6;
+  --color-integrare-turquoise: #40e0d0;
+  --color-integrare-lavender: #9370db;
+  --color-integrare-purple: #6a5acd;
+  --color-integrare-gray: #6b7280;
+  --color-integrare-black: #0a0a0a;
+  /* Tipografía: Garet títulos, Montserrat textos */
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Garet", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-integrare-white text-integrare-black font-sans antialiased;
+  }
+}
