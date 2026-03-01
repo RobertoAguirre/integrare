@@ -24,3 +24,13 @@ npm run preview
 - `public/_redirects` — Para producción (Netlify): todas las rutas → index.html (SPA).
 
 Paleta: azul claro, turquesa, lavanda, morado; tipografía Plus Jakarta Sans y DM Serif Display.
+
+## Agenda (backend)
+
+Los botones "Agendar consulta" e "Informes de talleres" envían datos al backend. Crea `.env` con:
+
+```
+VITE_API_URL=http://localhost:3001
+```
+
+En producción, usa la URL de tu API (ej. `https://api.integraredesarrollo.com`).

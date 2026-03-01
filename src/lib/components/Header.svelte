@@ -45,7 +45,7 @@
           <a href="#servicios" class="text-sm font-medium text-integrare-black hover:text-integrare-purple transition">Servicios</a>
           <a href="#promocion" class="text-sm font-medium text-integrare-black hover:text-integrare-purple transition">Promoción</a>
           <a href="#temas" class="text-sm font-medium text-integrare-black hover:text-integrare-purple transition">Temas</a>
-          <a href="#experiencia" class="text-sm font-medium text-integrare-black hover:text-integrare-purple transition">Experiencia</a>
+          <a href="#equipo" class="text-sm font-medium text-integrare-black hover:text-integrare-purple transition">Equipo</a>
           <a href="#contacto" class="text-sm font-medium text-integrare-black hover:text-integrare-purple transition">Contacto</a>
         {/if}
       </div>
@@ -75,7 +75,7 @@
           <a href="#servicios" class="block py-2 text-sm font-medium text-integrare-black">Servicios</a>
           <a href="#promocion" class="block py-2 text-sm font-medium text-integrare-black">Promoción</a>
           <a href="#temas" class="block py-2 text-sm font-medium text-integrare-black">Temas</a>
-          <a href="#experiencia" class="block py-2 text-sm font-medium text-integrare-black">Experiencia</a>
+          <a href="#equipo" class="block py-2 text-sm font-medium text-integrare-black">Equipo</a>
           <a href="#contacto" class="block py-2 text-sm font-medium text-integrare-black">Contacto</a>
         {/if}
       </div>

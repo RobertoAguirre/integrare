@@ -5,6 +5,8 @@
   import Home from './lib/components/Home.svelte';
   import Nosotros from './lib/components/Nosotros.svelte';
   import Footer from './lib/components/Footer.svelte';
+  import AgendarModal from './lib/components/AgendarModal.svelte';
+  import WhatsAppButton from './lib/components/WhatsAppButton.svelte';
 
   onMount(() => initRouter());
 </script>
@@ -17,4 +19,6 @@
     <Home />
   {/if}
   <Footer />
+  <AgendarModal />
+  <WhatsAppButton />
 </main>
